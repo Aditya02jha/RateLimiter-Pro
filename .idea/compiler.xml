@@ -22,4 +22,13 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rate-limiter-api" options="-parameters" />
+      <module name="rate-limiter-common" options="-parameters" />
+      <module name="rate-limiter-core" options="-parameters" />
+      <module name="rate-limiter-redis" options="-parameters" />
+      <module name="rate-limiter-sidecar" options="-parameters" />
+    </option>
+  </component>
 </project>
