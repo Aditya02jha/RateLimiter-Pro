@@ -9,4 +9,12 @@
     <artifactId>rate-limiter-core</artifactId>
     <name>Archetype - rate-limiter-core</name>
     <url>http://maven.apache.org</url>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ratelimiter</groupId>
+            <artifactId>rate-limiter-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
